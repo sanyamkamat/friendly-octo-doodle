@@ -5,7 +5,6 @@ import builderConfig from '@config/builder'
 import { Navigation } from '@components/Navigation'
 import BuilderRibbon from '@components/Ribbon'
 // import '@components/Ribbon';
-import '../components/widgets';
 import '../components/Link/link.css';
 
 builder.init(builderConfig.apiKey)
