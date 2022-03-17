@@ -99,7 +99,7 @@ export const Navigation = (props: any) => {
     const Flyout = (links: any) => {
         // console.log('LINK GROUP: ', links)
         return (
-            links?.navigationLinks?.map(link => {
+            links?.navigationLinks?.map((link: any) => {
                 // console.log('LINK: ', link)
                     
                 return <a className="nav-lins" href={link.linkUrl}>{link.linkText}</a>
@@ -110,7 +110,7 @@ export const Navigation = (props: any) => {
     }
 
     // console.log('PROPS: ', props)
-    const navigationChunk = props?.siteSettings?.map((item,i)=> {
+    const navigationChunk = props?.siteSettings?.map((item: any,i: number)=> {
         // console.log('ITEM: ', item)
         return (
             <>
