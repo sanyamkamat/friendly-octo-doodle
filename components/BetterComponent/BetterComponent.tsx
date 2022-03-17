@@ -44,7 +44,7 @@ export const Tabs: React.FC<ITabsProps> = ({ builderBlock, data }) => {
     //     selectedIndex={selectedIndex}
     //     setSelectedIndex={setSelectedIndex}
     //   />
-    // );
+    );
   }
 
   return <></>;
