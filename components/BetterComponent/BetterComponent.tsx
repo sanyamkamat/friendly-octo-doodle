@@ -36,15 +36,15 @@ export const Tabs: React.FC<ITabsProps> = ({ builderBlock, data }) => {
       label: dataItem.label,
     }));
     console.log('tim TAB DATA: ', tabData)
-    return (
-      <div></div>
+    return <div></div>
+    // (
     //   <div
     //     ariaLabel={`crate-tab-${builderBlock?.id}`}
     //     data={tabData}
     //     selectedIndex={selectedIndex}
     //     setSelectedIndex={setSelectedIndex}
     //   />
-    );
+    // );
   }
 
   return <></>;
