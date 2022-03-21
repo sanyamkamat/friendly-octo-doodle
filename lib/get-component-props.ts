@@ -3,7 +3,8 @@ import { builder } from "@builder.io/react";
 export async function getLayoutProps() {
     // console.log('helllasldkalskdas: ', await builder.getAll('site-settings', { options: {includeRefs: true} }))
     return {
-        siteSettings: await builder.getAll('site-settings', { options: {includeRefs: true} }) || null
+        siteSettings: await builder.getAll('site-settings', { options: {includeRefs: true} }) || null,
+        tester: await builder.getAll('tester', { options: {includeRefs: true} }) || null
     }
 }
 

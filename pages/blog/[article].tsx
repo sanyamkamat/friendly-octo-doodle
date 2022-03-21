@@ -7,7 +7,7 @@ import { getLayoutProps, getRibbonProps, getCustomCss } from '@lib/get-component
 import '@builder.io/widgets';
 import '@components/testerWithChildern';
 
-const BUILDER_API_KEY = 'e37b966ec695434bb21e97442a4a9f46'
+const BUILDER_API_KEY = 'f0ded9b4e1a44260ab6286f916d2eed8'
 builder.init(BUILDER_API_KEY)
 
 // tells you what paths are being built

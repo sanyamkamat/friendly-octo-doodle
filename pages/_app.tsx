@@ -6,18 +6,18 @@ import { Navigation } from '@components/Navigation'
 import BuilderRibbon from '@components/Ribbon'
 // import '@components/Ribbon';
 import '../components/Link/link.css';
+import React from 'react'
 
 builder.init(builderConfig.apiKey)
 
 export default function MyApp({ Component, pageProps }: AppProps) {
-  // console.log('pageProps ', pageProps)
+  console.log('pageProps ', pageProps)
   // console.log('MODEL: ', builder.editingModel!)
 
   return (
-    <>
-      <BuilderRibbon ribbon={pageProps.ribbon}></BuilderRibbon>
+    <div>
       <Navigation siteSettings={pageProps.siteSettings} />
       <Component {...pageProps} />
-    </>
+    </div>
   )
 }
