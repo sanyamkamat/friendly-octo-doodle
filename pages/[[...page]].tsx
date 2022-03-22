@@ -19,6 +19,7 @@ export async function getStaticProps({
   params,
 }: GetStaticPropsContext<{ page: string[] }>) {
 
+  // @refresh reset
   const page =
     (await builder
       .get('page', {
@@ -41,7 +42,9 @@ export async function getStaticProps({
     // Next.js will attempt to re-generate the page:
     // - When a request comes in
     // - At most once every 5 seconds
-    revalidate: 5,
+
+    // @refresh reset
+    revalidate: 5
   }
 }
 
@@ -87,6 +90,7 @@ export default function Page({
 
   if ((!page && isLive)){//|| (isLive && !router.query.preview)) {
     return (
+      // @refresh reset
       <>
         <Head>
           <meta name="robots" content="noindex" />
