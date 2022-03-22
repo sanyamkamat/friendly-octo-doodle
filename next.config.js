@@ -24,4 +24,5 @@ module.exports = bundleAnalyzer({
     // expose env to the browser
     BUILDER_PUBLIC_KEY: process.env.BUILDER_PUBLIC_KEY,
   },
+  swcMinify: true,
 })

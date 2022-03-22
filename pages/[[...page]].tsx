@@ -84,7 +84,7 @@ export default function Page({
   // console.log('REOUTER: ', router.query.preview );
 
   if (router.isFallback) {
-    return <h1>Loading............</h1>
+    return <h1>Loading...</h1>
   }
   const isLive = !Builder.isEditing && !Builder.isPreviewing
 

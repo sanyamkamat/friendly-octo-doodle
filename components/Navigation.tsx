@@ -19,7 +19,7 @@ export const Navigation = (props: any) => {
     }
 
     // console.log('PROPS: ', props)
-    console.log('PROPS: ', props)
+    // console.log('PROPS: ', props)
     const navigationChunk = props?.siteSettings?.map((item: any,i: number)=> {
         // console.log('ITEM: ', item)
         return (
