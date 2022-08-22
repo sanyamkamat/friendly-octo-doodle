@@ -7,11 +7,12 @@ import Head from 'next/head'
 import { getLayoutProps, getRibbonProps, getCustomCss } from '@lib/get-component-props'
 import { Link } from '@components/Link/Link'
 import '@components/TestCustomComponent/TestCustomComponent';
-import '@components/testerWithChildern';
+import '@components/Heading';
 // import '@components/BetterComponent/BetterComponent';
 import '@builder.io/widgets';
 
-const BUILDER_API_KEY = 'f0ded9b4e1a44260ab6286f916d2eed8'
+// const BUILDER_API_KEY = 'f0ded9b4e1a44260ab6286f916d2eed8'
+const BUILDER_API_KEY = '802a1eea7c44430aa23d4b9c708d07ad'
 builder.init(BUILDER_API_KEY)
 
 // tells you what paths are being built

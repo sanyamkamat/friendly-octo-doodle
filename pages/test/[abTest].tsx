@@ -7,7 +7,6 @@ import Head from 'next/head'
 import { getLayoutProps, getRibbonProps, getCustomCss } from '@lib/get-component-props'
 import { Link } from '@components/Link/Link'
 import '@components/TestCustomComponent/TestCustomComponent';
-import '@components/testerWithChildern';
 // import '@components/BetterComponent/BetterComponent';
 import '@builder.io/widgets';
 

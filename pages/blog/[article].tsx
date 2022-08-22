@@ -5,7 +5,6 @@ import DefaultErrorPage from 'next/error'
 import Head from 'next/head'
 import { getLayoutProps, getRibbonProps, getCustomCss } from '@lib/get-component-props'
 import '@builder.io/widgets';
-import '@components/testerWithChildern';
 
 const BUILDER_API_KEY = 'f0ded9b4e1a44260ab6286f916d2eed8'
 builder.init(BUILDER_API_KEY)
