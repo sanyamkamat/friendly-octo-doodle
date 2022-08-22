@@ -25,6 +25,7 @@ export async function getStaticProps({
     (await builder
       .get('page', {
         userAttributes: {
+          locale: 'fr-FR',
           urlPath: '/' + (params?.page?.join('/') || '')
         },
       })
