@@ -108,9 +108,9 @@ export default function Page({
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <BuilderComponent model="page" 
+      <BuilderComponent model="page"
         content={page} 
-        data={serverResults}
+        data={{...serverResults, locale:'fr-FR'}}
         
         context={{
           handleSubmit, 
