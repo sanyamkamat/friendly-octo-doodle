@@ -16,7 +16,7 @@ export const Heading = (props: { title: Object; }) => {
     <div style={{'width': '50vw'}}>
       <h1>HELLO</h1>
       <h1>{JSON.stringify(props.title)}</h1>
-      <h1>{props.title ? props.title['fr-FR']! : 'BLAH'}</h1>
+      <h1>{props.title ? props.title : 'BLAH'}</h1>
     </div>
   )
 }
